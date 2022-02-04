@@ -13,6 +13,9 @@ install python app to "https://www.python.org/downloads/"
     django-admin (shows all commands can be used)
     django-admin startproject project_name .
 
+    python manage.py migrate
+    python manage.py createsuperuser
+
     py manage.py runserver - http://127.0.0.1:8000/
 
 cd desktop/project_name code .
