@@ -16,6 +16,8 @@ install python app to "https://www.python.org/downloads/"
     python manage.py migrate
     python manage.py createsuperuser
 
+    py manage.py startapp app_name .
+
     py manage.py runserver - http://127.0.0.1:8000/
 
 cd desktop/project_name code .
@@ -33,3 +35,4 @@ cd desktop/project_name code .
     python manage.py startapp name_of_app
     (every app created must be added to settings.py "INSTALLED_APPS = []")
     
+create urls.py to app_folder (for routes)
