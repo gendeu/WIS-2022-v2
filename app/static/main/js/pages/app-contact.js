@@ -1,6 +1,6 @@
 //[app contact Javascript]
 
-//Project:	Deposito Admin - Responsive Admin Template
+//Project:	Warehouse Inventory System Admin - Responsive Admin Template
 //Primary use:   Used only for the Data Table
 
 $(function () {

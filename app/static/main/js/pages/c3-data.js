@@ -1,6 +1,6 @@
 //[c3 charts Javascript]
 
-//Project:	Deposito Admin - Responsive Admin Template
+//Project:	Warehouse Inventory System Admin - Responsive Admin Template
 //Primary use:   Used only for the morris charts
 
 

@@ -1,7 +1,7 @@
 //[custom Javascript]
 
-//Project:	Deposito Admin - Responsive Admin Template
-//Primary use:	Deposito Admin - Responsive Admin Template
+//Project:	Warehouse Inventory System Admin - Responsive Admin Template
+//Primary use:	Warehouse Inventory System Admin - Responsive Admin Template
 
 //should be included in all pages. It controls some layout
 

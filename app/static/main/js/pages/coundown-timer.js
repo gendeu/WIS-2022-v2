@@ -1,6 +1,6 @@
 //[timer contact Javascript]
 
-//Project:	Deposito Admin - Responsive Admin Template
+//Project:	Warehouse Inventory System Admin - Responsive Admin Template
 
 $(function () {
     "use strict";
