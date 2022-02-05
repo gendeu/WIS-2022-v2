@@ -1,7 +1,9 @@
+from email import message
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.contrib.auth import authenticate, login, logout
 from django.urls import reverse
+from django.contrib import messages
 
 # Create your views here.
 
@@ -19,6 +21,7 @@ def perform_login(request):
             login(request, user_obj)
             return HttpResponseRedirect(reverse("render_home"))
         else:
+            messages.error(request, "Username or Password is Invalid!")
             return HttpResponseRedirect("/")        
             
 def render_home(request):

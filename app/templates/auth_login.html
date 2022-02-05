@@ -21,10 +21,12 @@
 	<link rel="stylesheet" href="{% static 'main/css/style.css' %}">
 	<link rel="stylesheet" href="{% static 'main/css/skin_color.css' %}">	
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+	<!-- CSS only -->
+	
 
 </head>
 	
-<body class="hold-transition theme-primary bg-img" style="background-image: url({% static 'images/auth-bg/bg-1.jpg' %})">
+<body class="hold-transition theme-primary bg-img" style="background-image: url({% static 'images/auth-bg/bg-1.PNG' %})">
 	
 	<div class="container h-p100">
 		<div class="row align-items-center justify-content-md-center h-p100">	
@@ -40,6 +42,14 @@
 							<div class="p-40">
 								<form method="post" action="{% url 'perform_login' %}">
 									{% csrf_token %}
+									{% if messages %}
+										{% for message in messages %}
+											<div class="alert alert-danger alert-dismissible fade show" role="alert">
+												<strong>(Error)</strong> {{ message }}
+												<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+											</div>
+										{% endfor %}
+									{% endif %}
 									<div class="form-group">
 										<div class="input-group mb-3">
 											<span class="input-group-text bg-transparent"><i class="ti-user"></i></span>

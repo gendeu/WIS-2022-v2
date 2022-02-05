@@ -315,7 +315,7 @@ $(function () {
             show: false
           }
         },
-        colors: ['#2e72ff','#fb5ea8','#00875a'],
+        colors: ['#2e72ff','#0080ff','#00875a'],
         dataLabels: {
           enabled: false,
         },
